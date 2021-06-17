@@ -1,4 +1,4 @@
-[English]() | [简体中文]()
+[English](https://github.com/muyuuuu/NRP-pytorch-reimplement/blob/main/README.md) | [简体中文](https://github.com/muyuuuu/NRP-pytorch-reimplement/blob/main/README-zh.md)
 
 # A Self-supervised Approach for Adversarial Robustness
 
