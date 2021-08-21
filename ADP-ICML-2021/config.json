@@ -1,0 +1,6 @@
+{
+    "batch_size": 32,
+    "data_path": "/home/liyanni/1307/ljw/adversial/clean_data/cifar10",
+    "epoch": 1,
+    "save_path": "./checkpoints/score.pth"
+}
