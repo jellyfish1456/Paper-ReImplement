@@ -1,0 +1,3171 @@
+nohup: ignoring input
+anaconda3/envs/adv/lib/python3.6/site-packages/torch/nn/functional.py:1625: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.777873
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.692851
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.677430
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.718127
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.683582
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.682546
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.701306
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.689358
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.319960
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 1.197479
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 1.014808
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.918559
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.860632
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.842633
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.806633
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.868242
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.692276
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.706774
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.684089
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.706519
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.659717
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.639653
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.690864
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.386099
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.836107
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.842968
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.788371
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.818472
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.787643
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.787112
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.811211
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.735349
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.696377
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.605699
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.320625
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.286035
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.250696
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.246236
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.191949
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.188707
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.823045
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.812272
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.840443
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.743659
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.805203
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.804789
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.770354
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.824478
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.194126
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.205714
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.126160
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.167078
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.252391
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.144273
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.194498
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.155182
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.782224
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.805819
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.768715
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.858921
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.799884
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.761322
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.831049
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.820428
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.197448
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.220643
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.186124
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.133131
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.207143
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.196768
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.208975
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.175407
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.801898
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.878881
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.773687
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.830827
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.799116
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.813080
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.835079
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.804076
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.197229
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.250044
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.153509
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.088577
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.196187
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.122722
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.174207
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.282934
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.824173
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.795744
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.794733
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.795708
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.771008
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.812060
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.789244
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.754648
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.197029
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.196460
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.076843
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.163468
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.217720
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.196986
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.142269
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.184962
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.752568
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.847673
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.758495
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.859745
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.809674
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.793633
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.799499
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.902470
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.195769
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.196083
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.196838
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.120161
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.174649
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.174804
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.239484
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.153051
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.831164
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.760569
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.794595
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.699216
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.799792
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.717673
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.772460
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.800095
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.861320
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.515452
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.323084
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.257190
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.203906
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.220019
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.193094
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.186222
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.831422
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.797391
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.791184
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.714071
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.828706
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.756682
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.748389
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.813840
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.788627
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.191997
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.188603
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.415605
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.426381
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.204721
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.132816
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.188676
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.813555
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.794653
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.760650
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.762584
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.800134
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.820244
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.741933
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.769925
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.629333
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.104785
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.121746
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.166691
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.229245
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.175359
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.120401
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.112060
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.801633
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.796310
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.767930
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.765344
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.844696
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.724118
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.784942
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.822946
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 2.178402
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.481703
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.256285
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.170863
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.146096
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.199068
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.175865
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.175054
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.785699
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.830809
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.743950
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.732373
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.759315
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.839378
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.775878
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.780150
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.605139
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.172770
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.158506
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.178283
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.155443
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.154520
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.186104
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.163557
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.783768
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.792680
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.792630
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.815643
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.735957
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.750789
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.777968
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.759530
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.691292
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.645943
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.259047
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.170116
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.230390
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.142985
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.250669
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.251620
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.789407
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.762763
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.784802
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.801088
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.729201
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.768944
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.827689
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.756849
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 2.052244
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.203725
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.166237
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.175912
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.207984
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.164013
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.199554
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.229120
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.819363
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.792023
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.731577
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.783717
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.810189
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.796855
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.836976
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.712775
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.833287
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.510293
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.192925
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.180861
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.141251
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.187433
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.142340
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.121008
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.841123
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.807358
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.719284
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.796067
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.819797
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.769360
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.766733
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.798430
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.761931
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.294593
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.137703
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.165153
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.219468
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.186147
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.196453
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.239876
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.757395
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.713823
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.703829
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.771007
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.845585
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.837857
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.746820
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.787343
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 2.073947
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.705925
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.200127
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.224854
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.230448
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.187050
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.175161
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.219331
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.840774
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.717387
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.806260
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.799906
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.754137
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.760831
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.760515
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.764546
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 2.004823
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.094230
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.144182
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.229355
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.185958
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.187015
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.174906
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.154819
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.759248
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.820005
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.749870
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.750248
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.684354
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.787729
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.837750
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.736961
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.924583
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.164776
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.242121
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.218660
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.121304
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.218258
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.239213
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.110036
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.806887
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.777802
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.775384
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.751349
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.804412
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.784626
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.790675
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.766948
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.589586
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.182520
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.199887
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.143972
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.111544
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.153663
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.185811
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.175059
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.776675
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.837813
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.770368
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.727368
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.698310
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.748663
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.745473
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.774461
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.867339
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.581731
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.210050
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.210780
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.158015
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.153378
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.185909
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.207229
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.741790
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.774610
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.835048
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.775081
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.770360
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.759870
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.741853
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.795075
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.667050
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.185094
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.123540
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.151452
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.207588
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.207566
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.228874
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.186024
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.787829
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.770516
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.779643
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.814127
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.808607
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.768616
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.801461
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.759086
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.894115
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.275187
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.144738
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.166399
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.174786
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.196498
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.185149
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.196210
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.785198
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.703755
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.787674
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.768807
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.733702
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.749181
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.736104
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.767616
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.747473
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.154742
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.250600
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.110074
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.207216
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.154976
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.109597
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.163405
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.824452
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.775205
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.750418
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.756806
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.765009
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.800648
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.810182
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.757173
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 2.492484
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.154608
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.155979
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.096221
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.154142
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.163671
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.120019
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.206611
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.811598
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.838646
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.777036
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.723185
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.739089
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.772423
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.815406
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.776865
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.550885
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.121920
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.229481
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.165020
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.132452
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.239404
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.152674
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.152784
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.764553
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.804704
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.742477
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.803659
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.805814
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.807792
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.819700
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.742056
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.692708
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.121096
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.164395
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.131273
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.206887
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.207122
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.174611
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.142990
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.772788
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.787142
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.804424
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.792495
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.785934
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.827250
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.787816
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.740720
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.614377
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.262368
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.131457
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.196084
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.217850
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.174852
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.228309
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.217587
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.747891
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.802313
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.802458
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.748005
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.794012
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.778059
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.774490
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.802046
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.861160
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.220496
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.220560
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.145958
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.197785
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.121418
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.185757
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.142946
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.733081
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.681620
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.782222
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.786776
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.750363
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.758800
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.839109
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.793800
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.717816
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.168020
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.196930
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.207260
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.207375
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.153520
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.174427
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.251888
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.762432
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.796306
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.777877
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.711121
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.799974
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.808351
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.736474
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.812342
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.017426
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.147098
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.243371
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.137683
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.186079
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.218375
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.229292
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.206903
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.774064
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.782119
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.732698
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.728157
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.795038
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.735446
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.790127
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.797341
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.822192
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.210509
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.133023
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.217768
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.131563
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.163950
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.154187
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.228209
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.825174
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.768514
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.773192
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.830886
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.775745
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.726857
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.772504
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.825166
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.841913
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.121110
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.163576
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.174453
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.164571
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.250241
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.228241
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.153303
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.775193
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.796562
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.770268
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.791288
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.758872
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.778999
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.802383
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.779350
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.287587
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.197680
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.229665
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.208214
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.174054
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.228300
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.141780
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.131381
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.791911
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.781058
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.783920
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.773748
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.747920
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.765313
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.749076
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.819087
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 2.538045
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.208897
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.175463
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.195733
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.229328
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.131443
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.174663
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.152524
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.741023
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.777291
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.843802
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.807223
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.852308
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.796854
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.810606
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.727497
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.152724
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.109520
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.109709
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.174192
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.174206
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.228135
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.163297
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.195639
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.941436
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.791867
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.815194
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.806370
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.749784
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.822588
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.833898
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.805848
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.184852
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.174400
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.088553
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.152385
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.174066
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.152478
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.228208
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.238964
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.806837
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.755956
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.829736
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.804701
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.819462
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.704077
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.788372
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.801899
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.197475
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.131353
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.174127
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.164790
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.185527
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.174513
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.207404
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.207013
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.801764
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.793652
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.816984
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.755675
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.780301
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.848472
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.802474
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.754513
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.196187
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.152585
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.141657
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.249817
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.206749
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.271498
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.217436
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.195858
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.760276
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.729366
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.782381
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.821725
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.802504
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.741942
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.795311
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.799582
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.195900
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.271635
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.260547
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.206871
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.141477
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.141948
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.152268
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.163543
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.811960
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.713373
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.748357
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.793025
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.773445
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.842696
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.896731
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.862390
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.173980
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.120591
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.120721
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.195533
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.152609
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.141854
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.206680
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.108779
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.738348
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.748409
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.737837
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.744886
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.769622
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.750372
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.713606
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.800663
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.966518
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.187635
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.132599
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.187625
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.218700
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.163901
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.196088
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.184801
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.846147
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.741847
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.763524
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.717338
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.701360
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.855726
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.766085
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.797426
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.308215
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.208326
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.217983
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.185753
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.120223
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.187071
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.142196
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.142645
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.854679
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.843671
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.783001
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.811736
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.775724
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.734930
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.778330
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.761065
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 2.006036
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.169103
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.231314
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.217780
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.111241
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.131363
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.206519
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.132439
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.807551
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.788717
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.760421
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.777140
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.808721
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.816824
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.775481
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.844233
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.997271
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.207888
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.185726
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.131503
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.232050
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.165743
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.230529
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.174187
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.752481
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.842874
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.798170
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.775235
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.770816
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.837102
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.806779
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.755833
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.196719
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.185510
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.196608
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.197123
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.142304
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.196190
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.153081
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.206880
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.818081
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.801366
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.837350
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.715944
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.779989
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.838877
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.794888
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.819961
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.185050
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.217894
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.207046
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.174560
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.185095
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.141824
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.163508
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.229103
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.826939
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.746115
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.777274
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.829216
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.805327
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.767302
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.835989
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.739016
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.185485
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.163623
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.206691
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.164104
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.142953
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.184783
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.207927
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.206801
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.778373
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.780933
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.801375
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.807917
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.730352
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.782179
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.761888
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.751479
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.142001
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.066620
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.249769
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.207342
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.186786
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.142263
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.152650
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.163560
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.865568
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.809033
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.695339
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.768565
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.748726
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.784001
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.784653
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.727625
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.444499
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.240149
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.132014
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.197405
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.218124
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.196201
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.185772
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.109510
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.802884
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.836078
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.794050
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.816169
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.746885
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.754475
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.784338
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.775778
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.110270
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.121941
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.228604
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.174524
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.110295
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.163833
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.120709
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.175334
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.812340
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.796482
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.799603
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.799527
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.810541
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.812112
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.743854
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.811770
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.218471
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.174626
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.174690
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.228762
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.153029
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.163879
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.185217
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.196041
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.835779
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.857517
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.799805
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.770725
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.778950
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.802807
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.800307
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.817014
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.185218
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.120559
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.250449
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.142041
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.207050
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.174754
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.121406
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.152903
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.814853
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.812022
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.813891
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.771780
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.785460
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.857820
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.750955
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.727600
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.121019
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.142001
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.098727
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.153454
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.131667
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.163691
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.174646
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.142525
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.822230
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.812962
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.824216
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.818106
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.749763
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.768972
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.773012
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.785917
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.185493
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.131315
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.218365
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.207310
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.218690
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.185527
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.163619
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.153249
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.828847
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.798489
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.748720
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.822627
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.733351
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.815055
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.792003
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.860976
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.208181
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.185953
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.088973
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.153450
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.110229
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.208448
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.142196
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.218058
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.780138
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.744035
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.791079
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.741483
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.822174
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.818430
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.839776
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.743014
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.131453
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.174711
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.174725
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.164515
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.196453
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.185230
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.175597
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.196142
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.810903
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.815367
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.800755
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.746262
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.870179
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.808053
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.840952
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.800915
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.142424
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.153603
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.163894
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.175315
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.218640
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.175490
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.240262
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.165055
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.803407
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.803083
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.752764
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.708191
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.779988
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.786391
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.808425
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.748935
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.196579
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.164114
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.164382
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.153041
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.218650
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.185644
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.153436
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.196693
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.811401
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.812067
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.757501
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.806556
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.870464
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.750219
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.749559
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.813091
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.120805
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.109889
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.185887
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.153573
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.109960
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.121399
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.153524
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.111146
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.802311
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.743289
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.827019
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.728845
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.792784
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.770419
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.772313
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.763513
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.164338
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.163799
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.207507
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.185867
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.229209
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.218950
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.186142
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.110981
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.811633
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.795705
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.748808
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.800549
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.806728
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.807584
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.763109
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.774558
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.164430
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.218169
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.186262
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.153628
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.142762
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.132329
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.089505
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.143212
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.756709
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.749806
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.734197
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.810368
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.842977
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.740479
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.810549
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.758858
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.153750
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.144749
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.132940
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.121494
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.186326
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.186381
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.132103
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.218855
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.766993
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.732617
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.728132
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.808604
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.810753
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.779508
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.794923
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.788529
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.154829
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.164796
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.187038
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.261782
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.197555
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.142483
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.207561
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.218551
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.794161
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.813422
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.799265
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.734820
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.726096
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.762257
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.821755
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.794966
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.121523
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.218479
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.196999
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.228807
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.185901
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.142951
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.142895
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.153587
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.808611
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.804314
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.785812
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.735055
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.760422
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.802913
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.816957
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.791137
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.196267
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.196925
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.164240
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.282855
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.153744
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.207659
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.154125
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.197543
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.798097
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.761757
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.789736
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.815373
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.783448
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.760323
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.805123
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.861948
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.143525
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.197088
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.153699
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.110227
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.164306
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.174910
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.186253
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.132846
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.802065
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.773406
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.733966
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.804691
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.747267
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.765967
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.786737
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.782745
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.153435
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.099850
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.175255
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.164775
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.143409
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.164659
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.121568
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.132737
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.774673
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.864809
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.736252
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.756757
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.804399
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.802365
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.846656
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.855679
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.186610
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.143699
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.207768
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.111358
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.164512
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.186507
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.175315
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.143055
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.843499
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.744251
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.768797
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.811293
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.806783
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.850765
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.796451
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.813541
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.186096
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.100057
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.143168
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.110467
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.229626
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.186695
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.207498
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.121464
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.765875
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.890720
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.818577
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.761955
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.765422
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.844509
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.723511
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.732292
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 1.421884
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.161745
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.180815
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.177822
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.187557
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.187183
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.177701
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.133449
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.832317
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.844223
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.799662
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.774166
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.808963
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.838601
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.815146
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.737985
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.208796
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.144960
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.143966
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.154621
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.197496
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.207843
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.218763
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.186577
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.801896
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.764575
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.749095
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.707628
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.770564
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.804258
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.747623
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.725831
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.239996
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.175733
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.197620
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.196819
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.197075
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.261348
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.208357
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.220076
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.882171
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.818328
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.751414
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.806361
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.742075
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.780869
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.781252
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.762369
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.154452
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.240035
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.219285
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.154213
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.229240
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.186283
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.122132
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.185896
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.840460
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.833182
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.768075
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.751427
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.714674
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.829012
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.752272
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.791282
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.132497
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.207844
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.196923
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.272432
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.186544
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.133160
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.207636
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.143082
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.784917
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.814407
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.821153
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.818222
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.759256
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.764206
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.796984
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.771264
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.175857
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.250676
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.153890
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.185530
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.185934
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.185990
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.186023
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.131818
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.838319
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.779622
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.778643
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.862129
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.767663
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.739305
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.781643
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.719678
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.207747
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.186263
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.142721
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.132597
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.143952
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.153978
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.229605
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.175487
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.732527
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.771148
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.789567
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.733960
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.756428
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.746994
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.731479
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.784741
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.229459
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.154564
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.143599
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.208493
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.132401
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.197132
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.121817
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.165318
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.833624
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.761471
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.799013
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.792015
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.798118
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.785415
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.762568
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.760893
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.143489
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.240488
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.175548
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.186490
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.250593
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.175706
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.218923
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.186548
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.782247
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.856651
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.815891
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.761776
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.752126
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.783122
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.798304
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.757990
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.154271
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.143535
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.186841
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.143478
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.165671
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.218975
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.218943
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.175771
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.825029
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.798187
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.736205
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.733379
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.831255
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.789638
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.729887
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.739407
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.262044
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.132453
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.175822
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.164902
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.229384
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.132710
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.240280
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.164832
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.746063
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.759194
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.780520
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.790024
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.822395
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.821209
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.822181
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.819708
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.186355
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.143566
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.155062
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.240594
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.207778
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.208220
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.186776
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.154024
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.707908
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.763360
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.744542
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.740969
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.758566
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.851198
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.840988
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.781587
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.133143
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.165229
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.186743
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.197640
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.133072
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.144199
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.121647
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.197596
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.847531
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.812041
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.833639
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.859993
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.800647
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.805245
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.806072
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.729946
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.143661
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.165367
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.176019
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.132724
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.153803
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.186515
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.164028
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.154673
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.765778
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.815660
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.699205
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.832914
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.801344
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.768722
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.855939
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.797619
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.165891
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.176591
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.197541
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.154374
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.197672
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.176417
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.186489
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.186950
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.789160
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.879483
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.776892
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.793929
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.820202
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.771064
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.788819
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.759889
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.230080
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.186515
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.165284
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.197662
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.240998
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.165214
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.187286
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.262010
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.793227
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.795735
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.809517
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.795575
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.813456
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.792130
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.798557
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.750340
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.218524
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.197846
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.132816
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.176822
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.197637
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.219209
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.176069
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.187096
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.858810
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.830417
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.757095
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.768550
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.805372
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.766425
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.803142
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.780488
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.176297
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.165614
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.154722
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.175889
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.122147
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.175797
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.208502
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.176003
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.777674
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.793058
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.751252
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.771611
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.739147
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.821911
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.807718
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.798524
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.219293
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.133968
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.208839
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.176014
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.132977
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.251537
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.241040
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.165900
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.797778
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.810223
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.780959
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.817562
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.720220
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.796247
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.837510
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.783654
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.154752
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.230493
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.154636
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.208390
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.241056
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.143999
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.155025
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.208724
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.801948
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.767224
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.817548
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.782627
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.841406
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.767143
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.861958
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.787217
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.165320
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.144524
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.143946
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.197482
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.219560
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.252162
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.187364
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.230335
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.812402
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.757161
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.805070
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.783680
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.782352
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.829823
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.824423
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.761868
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.198157
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.187957
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.133150
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.198598
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.166030
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.219161
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.219824
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.188001
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.741437
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.714286
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.783059
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.760037
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.792849
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.737910
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.760593
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.805631
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.176427
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.144101
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.187606
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.112029
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.113201
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.154659
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.230485
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.197795
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.826011
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.790917
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.844377
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.812267
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.828775
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.744401
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.829889
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.853359
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.240684
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.166260
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.176906
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.176848
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.176839
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.176424
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.165626
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.252082
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.735209
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.772605
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.798025
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.768816
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.744119
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.761362
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.757169
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.771940
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.176570
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.165245
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.165361
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.219703
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.144203
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.208851
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.187009
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.208374
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.807506
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.818353
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.831126
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.820545
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.783017
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.779559
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.790960
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.756996
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.197531
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.187264
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.165820
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.155472
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.176735
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.187968
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.198326
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.176297
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.778994
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.782528
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.819330
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.775094
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.831719
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.747659
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.813002
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.784380
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.166151
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.155513
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.176129
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.165858
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.144152
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.133982
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.187484
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.176101
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.808927
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.798464
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.769979
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.830287
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.793297
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.804135
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.751142
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.783643
+-------Discriminator training process--------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.241321
+-------Discriminator training process--------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.208948
+-------Discriminator training process--------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.144854
+-------Discriminator training process--------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.155019
+-------Discriminator training process--------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.155606
+-------Discriminator training process--------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.263099
+-------Discriminator training process--------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.198340
+-------Discriminator training process--------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.219451
+-------Purifier training process-------
+Train Epoch: 0 [0/50000 (0%)]	Loss: 0.768302
+-------Purifier training process-------
+Train Epoch: 0 [6400/50000 (13%)]	Loss: 0.757798
+-------Purifier training process-------
+Train Epoch: 0 [12800/50000 (26%)]	Loss: 0.811985
+-------Purifier training process-------
+Train Epoch: 0 [19200/50000 (38%)]	Loss: 0.779146
+-------Purifier training process-------
+Train Epoch: 0 [25600/50000 (51%)]	Loss: 0.847915
+-------Purifier training process-------
+Train Epoch: 0 [32000/50000 (64%)]	Loss: 0.794163
+-------Purifier training process-------
+Train Epoch: 0 [38400/50000 (77%)]	Loss: 0.848879
+-------Purifier training process-------
+Train Epoch: 0 [44800/50000 (90%)]	Loss: 0.765462
