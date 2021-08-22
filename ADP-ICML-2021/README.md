@@ -6,3 +6,5 @@
 
 - [模型参考](https://github.com/ermongroup/ncsn/blob/master/models/scorenet.py)，非标准 denoise autoencoder
 - [损失参考](https://github.com/ermongroup/ncsn/blob/7f27f4a16471d20a0af3be8b8b4c2ec57c8a0bc1/losses/dsm.py#L18-L26)，叠加噪音时需要注意
+
+注意：在 `eval.py` 中，加载的是训练好的目标模型和保存好的对抗样本，我这里就不提供了，用户应适配自己的模型和数据。
