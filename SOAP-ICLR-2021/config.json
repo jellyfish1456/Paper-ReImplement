@@ -1,0 +1,5 @@
+{
+    "batch_size": 128,
+    "save_path": "./checkpoints/model.pth",
+    "data_path": "/home/liyanni/1307/ljw/adversial/clean_data/cifar10"
+}
