@@ -17,7 +17,7 @@ def joint_criterion(model, aux_criterion, X, y, alpha=1.):
     y = y.repeat(2)
 
     loss = nn.functional.cross_entropy(l, y)
-    
+
     return loss + aux_loss * alpha, (loss, aux_loss)
 
 
@@ -53,7 +53,7 @@ def pi_criterion(model, X, joint=False, train=False, reduction='mean'):
 
 
 def train_with_auxiliary(model, train_loader, joint_criterion, optimizer, device):
-    
+
     model.train()
     error, acc, error_aux, acc_aux = 0., 0., 0., 0.
     for X, y in train_loader:
@@ -61,21 +61,15 @@ def train_with_auxiliary(model, train_loader, joint_criterion, optimizer, device
         joint_loss, (loss, aux_loss) = joint_criterion(model, X=X, y=y)
         error += loss.item()
         error_aux += aux_loss.item()
-        
+
         optimizer.zero_grad()
         joint_loss.backward()
         optimizer.step()
-            
-        acc += (model.pred[:y.shape[0]].max(dim=1)[1] == y).sum().item()
 
     error = error / len(train_loader)
     error_aux = error_aux / len(train_loader)
-    acc = acc / len(train_loader.dataset)
-    if joint_criterion.keywords['aux_criterion'].__name__ == 'rotate_criterion':
-        acc_aux = acc_aux / len(train_loader.dataset) / 4
-        print('train loss: {} / acc: {} / err-aux: {} / acc-aux: {}'.format(error, acc, error_aux, acc_aux))
-    else:
-        print('train loss: {} / acc: {} / err-aux: {}'.format(error, acc, error_aux))
+
+    print('train loss: {} / err-aux: {}'.format(error, error_aux))
 
 
 config = None
@@ -84,7 +78,6 @@ with open('config.json', 'r') as f:
 
 if not os.path.exists("checkpoints"):
     os.makedirs("checkpoints")
-
 
 model = VGG('VGG16')
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -102,9 +95,10 @@ trainloader = torch.utils.data.DataLoader(trainset, batch_size=batch_size,
                                           shuffle=True, num_workers=2)
 
 print('Start training...')
-for epoch in range(100):
-    print('epoch: {}'.format(epoch))
-    train_with_auxiliary(model, trainloader, criterion, optimizer, scheduler, device)
+
+for epoch in range(config["epochs"]):
+    print('epoch: {}'.format(epoch), end=' ')
+    train_with_auxiliary(model, trainloader, criterion, optimizer, device)
     scheduler.step()
 
 torch.save(model.state_dict(), config["save_path"])

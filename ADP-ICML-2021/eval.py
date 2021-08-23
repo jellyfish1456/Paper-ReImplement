@@ -6,56 +6,10 @@ import numpy as np
 from model import Score
 import json
 from vgg import VGG
+from resnet18 import ResNet18
 
 
-mean = 0.4738999871706486
-config = None
-with open('config.json', 'r') as f:
-    config = json.load(f)
-
-print('============, load data')
-transform = transforms.Compose(
-    [transforms.ToTensor(),
-     transforms.Normalize((0.49, 0.48, 0.44), (0.24, 0.24, 0.26))])
-
-batch_size = config["batch_size"]
-
-trainset = torchvision.datasets.CIFAR10(root=config["data_path"], train=True,
-                                        download=True, transform=transform)
-trainloader = torch.utils.data.DataLoader(trainset, batch_size=batch_size,
-                                          shuffle=True, num_workers=2)
-
-testset = torchvision.datasets.CIFAR10(root=config["data_path"], train=False,
-                                       download=True, transform=transform)
-testloader = torch.utils.data.DataLoader(testset, batch_size=batch_size,
-                                         shuffle=False, num_workers=2)
-
-print('============, load purify model')
-purfier = Score()
-purfier.load_state_dict(torch.load(config['save_path'], map_location=torch.device('cpu')))
-purfier.eval()
-
-
-print('============, load target model')
-net = VGG('VGG16')
-pthfile = r'VGG16_ckpt.pth'
-d = torch.load(pthfile, map_location=torch.device('cpu'))['net']
-d = OrderedDict([(k[7:], v) for (k, v) in d.items()])
-net.load_state_dict(d)
-
-total = 0
-correct = 0
-print('============, natural acc: ', end=' ')
-for batch_idx, (inputs, targets) in enumerate(testloader):
-    outputs = net(inputs)
-    _, predicted = outputs.max(1)
-    total += targets.size(0)
-    correct += predicted.eq(targets).sum().item()
-acc = 100. * correct / total
-print(acc)
-
-
-def score_test(testloader):
+def score_test(testloader, net, purfier):
 
     delta = 1e-5
     lambda_ = 0.05
@@ -79,7 +33,6 @@ def score_test(testloader):
                 for _ in range (10):
 
                     denoise = purfier(inputs)
-
                     inputs_ = inputs + delta * denoise
 
                     f1 = torch.bmm(inputs.view(inputs.size()[0], 1, -1), inputs_.view(inputs_.size()[0], -1, 1))
@@ -87,7 +40,8 @@ def score_test(testloader):
                     f = torch.div(f1, f2)
 
                     alpha = torch.squeeze(torch.clamp(lambda_ * delta / (1.0 - f), min=0.00001, max=0.1))
-                    inputs = torch.clamp(inputs.detach() + alpha * denoise, 0.0, 1.0)
+
+                    inputs = torch.clamp(inputs.detach() + torch.einsum("i,iabc->iabc", [alpha, denoise]), 0.0, 1.0)
 
                     if (torch.norm(purfier(inputs), p=1) < tao):
                         break
@@ -101,11 +55,8 @@ def score_test(testloader):
             total += labels.size(0)
             correct += (predicted == labels).sum().item()
             # break
-        
-        print('Accuracy of the network on the 10000 test images: %d %%' % (
-            100 * correct / total))
 
-# score_test(testloader)
+        print('Accuracy of the network on the 10000 test images: {}'.format(100 * correct / total))
 
 
 class TensorDataset(Dataset):
@@ -118,7 +69,7 @@ class TensorDataset(Dataset):
         x = np.load(dataPath)
         x = x[50000:]
         if is_adv:
-            x += mean
+            x += 0.47
 
         x = x.astype("float32")
         data = x.transpose(0, 3, 1, 2)
@@ -134,21 +85,74 @@ class TensorDataset(Dataset):
     def __len__(self):
         return self.data_tensor.size(0)
 
+config = None
+with open('config.json', 'r') as f:
+    config = json.load(f)
+
+print('============, load data')
+transform = transforms.Compose(
+    [transforms.ToTensor(),
+    transforms.Normalize((0.49, 0.48, 0.44), (0.24, 0.24, 0.26))])
+
+batch_size = config["batch_size"]
+
+trainset = torchvision.datasets.CIFAR10(root=config["data_path"], train=True,
+                                        download=True, transform=transform)
+trainloader = torch.utils.data.DataLoader(trainset, batch_size=batch_size,
+                                        shuffle=True, num_workers=2)
+
+testset = torchvision.datasets.CIFAR10(root=config["data_path"], train=False,
+                                    download=True, transform=transform)
+testloader = torch.utils.data.DataLoader(testset, batch_size=batch_size,
+                                        shuffle=False, num_workers=2)
+
+print('============, load purify model')
+purfier = Score()
+purfier.load_state_dict(torch.load(config['save_path'], map_location=torch.device('cpu')))
+purfier.eval()
+
+net, pthfile = None, None
 
 data_root_path = '/home/liyanni/1307/zwh/defense/adv_data/cifar10/'
 adv_file = ['fgsm/', 'bim/', 'cw/']
 perturbation = ['0.015x_adv.npy', '0.03x_adv.npy', '0.06x_adv.npy']
 labelPath = "/home/liyanni/1307/zwh/whiteBox/data/cifar10_label.npy"
-
 data_load = ""
 
-# 开始对抗去噪
-for adv in adv_file:
-    for path_ in perturbation:
-        adv_data_path = data_root_path + adv + path_
-        # print(adv, '  ', path_[0:-8], end=', ')
+for i in range (2):
 
-        advdata = TensorDataset(adv_data_path, labelPath, is_adv=True)
-        adv_loader = torch.utils.data.DataLoader(advdata, batch_size=32)
-        print('to pridict: ', adv_data_path, end=', ')
-        score_test(adv_loader)
+    print('============, load target model')
+    if i == 0:
+        net = VGG('VGG16')
+        pthfile = r'VGG16_ckpt.pth'
+    else:
+        net = ResNet18()
+        pthfile = r'resnet18_ckpt.pth'
+
+    d = torch.load(pthfile, map_location=torch.device('cpu'))['net']
+    d = OrderedDict([(k[7:], v) for (k, v) in d.items()])
+    net.load_state_dict(d)
+
+    total = 0
+    correct = 0
+    print('============, natural acc: ', end=' ')
+    for batch_idx, (inputs, targets) in enumerate(testloader):
+        outputs = net(inputs)
+        _, predicted = outputs.max(1)
+        total += targets.size(0)
+        correct += predicted.eq(targets).sum().item()
+    acc = 100. * correct / total
+    print(acc)
+
+    print('===========, clean data: ', end=',')
+    score_test(testloader, net, purfier)
+
+    # 开始对抗去噪
+    for adv in adv_file:
+        for path_ in perturbation:
+            adv_data_path = data_root_path + adv + path_
+
+            advdata = TensorDataset(adv_data_path, labelPath, is_adv=True)
+            adv_loader = torch.utils.data.DataLoader(advdata, batch_size=128)
+            print('to pridict: ', adv_data_path, end=', ')
+            score_test(adv_loader, net, purfier)
