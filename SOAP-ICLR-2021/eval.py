@@ -9,6 +9,7 @@ from functools import partial
 
 from vgg import VGG
 from utils import pi_criterion
+from cw_attack import L2Adversary
 
 
 # 干净样本准确率
@@ -33,13 +34,13 @@ def evaluate(model, eval_loader, criterion):
 
 
 # 对抗样本准确率
-def evaluate_adversarial(model, loader, aux_criterion, purify):
+def evaluate_adversarial(model, loader, aux_criterion, purify, mode):
 
     model.eval()
     error, acc = 0., 0.
     for X, y in loader:
 
-        X_pfy = purify(model, aux_criterion, X)
+        X_pfy = purify(model, aux_criterion, X, mode)
         pred = model(X_pfy)
 
         loss = nn.functional.cross_entropy(pred, y)
@@ -53,25 +54,65 @@ def evaluate_adversarial(model, loader, aux_criterion, purify):
     return acc
 
 
-def inject_noise(X, epsilon=0.1, bound=(0,1)):
+def fgsm(model, criterion, X, y=None, epsilon=0.1, bound=(0,1)):
     """ Construct FGSM adversarial examples on the examples X"""
-    return (X + torch.randn_like(X) * epsilon).clamp(*bound) - X
+    delta = torch.zeros_like(X, requires_grad=True)
+
+    loss = criterion(model, X + delta)
+
+    loss.backward()
+
+    delta = epsilon * delta.grad.detach().sign()
+
+    return (X + delta).clamp(*bound) - X
 
 
-def defense_wrapper(X):
-    inv_delta = inject_noise(X)
+def cw(model, X, y=None, epsilon=0.1, num_classes=10):
+    delta = L2Adversary()(model, X.clone().detach(), y, num_classes=num_classes).to(X.device) - X
+    delta_norm = torch.norm(delta, p=2, dim=(1,2,3), keepdim=True) + 1e-4
+    delta_proj = (delta_norm > epsilon) * delta / delta_norm * epsilon + (delta_norm < epsilon) * delta
+    return delta_proj
+
+
+def bim(model, criterion, X, y=None, epsilon=0.1, bound=(0,1), step_size=0.01, num_iter=40):
+    """ Construct PGD adversarial examples on the examples X"""
+
+    delta = torch.zeros_like(X, requires_grad=True)
+
+    for t in range(num_iter):
+
+        loss = criterion(model, X + delta)
+
+        loss.backward()
+        delta.data = (delta + step_size*delta.grad.detach().sign()).clamp(-epsilon,epsilon)
+        delta.data = (X + delta).clamp(*bound) - X
+        delta.grad.zero_()
+
+    delta.data = (X + delta).clamp(*bound) - X
+    return delta.detach()
+
+
+def defense_wrapper(model, criterion, X, mode, epsilon=None, step_size=None, num_iter=None):
+    inv_delta = None
+    if mode == 'fgsm':
+        inv_delta = fgsm(model, lambda model, X: -criterion(model, X), X)
+    elif mode == 'cw':
+        inv_delta = cw(model=model, X=X)
+    else:
+        inv_delta = bim(model, lambda model, X: -criterion(model, X), X)
     # model.eval()
     return inv_delta
 
 
-def purify(model, aux_criterion, X):
+def purify(model, aux_criterion, X, mode):
 
     if aux_criterion is None:
         return X
     aux_track = torch.zeros(11, X.shape[0])
     inv_track = torch.zeros(11, *X.shape)
     for e in range(11):
-        defense = partial(defense_wrapper)
+        defense = partial(defense_wrapper, criterion=aux_criterion, mode=mode, 
+            epsilon=e*4/255, step_size=4/255, num_iter=5)
         inv_delta = defense(X=X)
         inv_track[e] = inv_delta
         aux_track[e, :] = aux_criterion(model, (X+inv_delta).clamp(0,1)).detach()
@@ -120,7 +161,8 @@ class TensorDataset(Dataset):
         x = np.load(dataPath)
         x = x[50000:]
         if is_adv:
-            x += 0.47
+            pass
+            # x += 0.47
 
         x = x.astype("float32")
         data = x.transpose(0, 3, 1, 2)
@@ -145,4 +187,4 @@ for adv in adv_file:
         advdata = TensorDataset(adv_data_path, labelPath, is_adv=True)
         adv_loader = torch.utils.data.DataLoader(advdata, batch_size=128)
         print('to pridict: ', adv_data_path, end=', ')
-        evaluate_adversarial(model, testloader, aux_criterion, pfy)
+        evaluate_adversarial(model, testloader, aux_criterion, pfy, mode=adv_file[:-1])
