@@ -1,0 +1,10 @@
+{
+    "data_path": "/home/liyanni/1307/ljw/adversial/clean_data/cifar10",
+    "epoch": 200,
+    "save_path": "./checkpoints/model.pth",
+    "eps": 8,
+    "c": 3,
+    "GPU": "0",
+    "batch_size": 128,
+    "inf_batch": 1024
+}
